@@ -1,0 +1,52 @@
+ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+ul li a {
+  text-decoration: none;
+
+  color: #3a3a3a;
+  font-weight: 600;
+}
+
+/*w: banner styles */
+.banner {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.banner-bg {
+  background-image: url("../images/Circle\ design.svg");
+  width: 16.06rem;
+  height: 16.06rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner img {
+  width: 50%;
+}
+
+.banner-infos {
+  margin-top: 1rem;
+}
+.banner-infos h2 {
+  font-weight: 700;
+  font-size: 1.86rem;
+}
+.banner-infos button {
+  margin-top: 1.5rem;
+}
+
+/*w: logo secion */
+.logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.logos img {
+  max-width: 100%;
+}
