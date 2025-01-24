@@ -1,0 +1,38 @@
+@media (min-width: 640px) {
+  /*w:nav section*/
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav h2 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .menu p {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  /*w: banner section */
+  .banner {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 180px 80px;
+
+    gap: clamp(50px, 9vw, 90px);
+  }
+  .banner h2 {
+    font-size: 45px;
+  }
+  .banner p {
+    font-size: 20px;
+    color: maroon;
+  }
+  .banner button {
+    font-size: 25px;
+  }
+  .banner-img {
+    transform: scale(1.3);
+  }
+}

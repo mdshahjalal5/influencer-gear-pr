@@ -1,0 +1,70 @@
+/*w: nav section  */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  padding: 3px;
+  max-width: 1400px;
+  margin: 5px auto;
+  padding: 5px;
+}
+nav h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: clamp(16px, 6vw, 35px);
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu p {
+  margin-right: clamp(10px, 3vw, 30px);
+}
+.menu a {
+  color: #3a3a3e;
+}
+a {
+  text-decoration: none;
+}
+
+/*w: banner section  */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 33px auto;
+  text-align: center;
+  border-radius: 30px;
+  padding: 40px 3px;
+}
+.banner-img {
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 257px;
+  height: 257px;
+
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-img img {
+  max-width: 70%;
+}
+.banner h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+}
+.banner p {
+  font-weight: 700;
+  font-family: cursive;
+  /* font-family: "Great Vibes", cursive; */
+}
+.banner button:hover {
+  transform: scale(1.05);
+}

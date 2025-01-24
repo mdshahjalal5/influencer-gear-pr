@@ -1,19 +1,32 @@
-/* * { */
-/*   margin: 0; */
-/*   padding: 0; */
-/*   box-sizing: border-box; */
-/* } */
-
-body {
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
-/*w: poppins font  */
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.poppins-regular {
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-style: normal;
+img {
+  max-width: 100%;
+}
+.orange {
+  color: orange;
+}
+.sky {
+  color: skyblue;
+}
+.meroon {
+  color: maroon;
+}
+.gray {
+  color: #3a3a3a;
+}
+.green {
+  color: green;
+}
+.btn {
+  padding: 10px 20px;
+  background: #e02c6d;
+  border-radius: 8px;
+  border: none;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ffffff;
 }
 .df {
   display: flex;
@@ -21,45 +34,42 @@ body {
 .jcc {
   justify-content: center;
 }
-.aic {
-  align-items: center;
-}
-.dg {
-  display: grid;
-}
-
 .shade {
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-}
-.tac {
-  text-align: center;
-}
-.text-primary {
-  color: #18191f;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.text-gary {
-  color: #787885;
+.grad {
+  background-image: linear-gradient(
+    13.9deg,
+    rgba(254, 253, 205, 1) 11.2%,
+    rgba(163, 230, 255, 1) 91.1%
+  );
 }
-.text-deep-gray {
-  color: #3a3a3a;
+.grad-pink {
+  background-image: linear-gradient(
+    371.5deg,
+    rgba(245, 187, 236, 1) 46.5%,
+    rgba(227, 124, 213, 1) 98.5%,
+    rgba(187, 187, 187, 1) 124.3%
+  );
 }
-.orange {
-  color: orange;
+.grad-white {
+  background-image: linear-gradient(
+    113.5deg,
+    rgba(234, 234, 234, 1) 22.3%,
+    rgba(201, 234, 211, 1) 56.6%,
+    rgba(255, 180, 189, 1) 90.9%
+  );
 }
-.skyblue {
-  color: skyblue;
+.bounce {
+  animation: fadeInBottomRight;
+  animation-duration: 1s;
 }
-
-.btn-primary {
-  background-color: #e02c6d;
-  color: white;
-  padding: 1.25rem 2rem;
-  border: none;
-  font-weight: 600;
-  font-size: 1rem;
-  border-radius: 10px;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
+.fade-in-left {
+  animation: fadeInLeft;
+  animation-duration: 1s;
+}
+.bounce-left {
+  animation: fadeInBottomLeft;
+  animation-duration: 1s;
 }
