@@ -63,7 +63,7 @@ img {
 }
 .bounce {
   animation: fadeInBottomRight;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 .fade-in-left {
   animation: fadeInLeft;
@@ -71,5 +71,5 @@ img {
 }
 .bounce-left {
   animation: fadeInBottomLeft;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
